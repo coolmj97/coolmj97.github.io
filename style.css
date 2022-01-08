@@ -452,11 +452,11 @@ ul {
   .project__list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   .project__list__item {
     width: 40%;
-    margin-bottom: 0;
     box-shadow: none;
     transition: all 300ms ease-in-out;
   }
